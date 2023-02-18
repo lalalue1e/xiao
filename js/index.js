@@ -10,7 +10,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3|时光荏苒又一年|祝你在新的一年中|时刻充实|天天开心！*^_^*|看啥啥懂！|学啥都会！|长大一岁|可爱加倍！|筱雨同学|十九岁生日快乐！|o(*￣▽￣*)ブ|');
+      S.UI.simulate('|#countdown 3|时光荏苒又一年|祝你在新的一岁中|时刻充实|天天开心！*^_^*|看啥啥懂！|学啥都会！|长大一岁|可爱加倍！|筱雨同学|十九岁生日快乐！|o(*￣▽￣*)ブ|');
     }
 
     S.Drawing.loop(function () {
